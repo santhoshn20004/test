@@ -572,4 +572,24 @@ section {
         height: auto;
         width: 100%;
     }
+
+    @media (max-width: 767px) {
+    /* Styles for screens up to 767px wide (phones) */
+    html {
+        font-size: 50%;
+    }
+
+    .home .row .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    /* Additional styles for phones */
+    .phone-specific-element {
+        /* Your styles for phones here */
+        color: blue; /* Example additional style */
+        font-size: 16px; /* Example additional style */
+    }
+}
+
 }
